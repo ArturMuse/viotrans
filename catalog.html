@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0" />   <!-- user-scalable=no, maximum-scale=1 -->
+    <title>Каталог</title>
+    <!--    Normalize installed here-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--    Main stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--    Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper catalog-page">
+    <!--        Popup Order-->
+    <div class="popup-order">
+        <div class="popup-order__success">
+            <div class="popup-order__success-pic">
+                <img src="img/successpic.png" alt="Успешно" class="popup-order__success-img">
+            </div>
+            <p class="popup-order__success-p">
+                Ваше собщение отправлено!
+            </p>
+        </div>
+        <div class="popup-order__inner">
+            <button class="popup-order__btn">
+                <img src="img/close.svg" alt="Закрыть" class="popup-order__btn-img">
+            </button>
+            <h4 class="popup-order__title">
+                Экскаватор-погрузчик
+            </h4>
+            <p class="popup-order__subtitle">
+                Экскаватор-погрузчик, марки JCB 3cx, JCB 3cx super, включая следующее дополнительное навесное оборудование, ямобур, гидромолот, палетные вилы, узкий ковш, планировочный ковш, завинчивание свай
+            </p>
+            <div class="popup-order__pic">
+                <img src="img/popupImg.png" alt="Фото" class="popup-order__img">
+            </div>
+            <form action="#" class="popup-order__form">
+                <label for="popup-order-form-name">
+                    <input type="text" class="popup-order__form-input popup-order__form-name"
+                           id="popup-order-form-name"
+                           placeholder="Ваше имя"
+                    >
+                </label>
+                <label for="popup-order-form-tel">
+                    <input type="tel" class="popup-order__form-input popup-order__form-tel"
+                           id="popup-order-form-tel"
+                           placeholder="Телефон"
+                    >
+                </label>
+                <label for="popup-order-form-work">
+                    <input type="text" class="popup-order__form-input popup-order__form-work"
+                           id="popup-order-form-work"
+                           placeholder="Тип работы"
+                    >
+                </label>
+                <input type="checkbox" class="popup-order__form-agreement form-agreement"
+                       id="popup-order-form-agreement"
+                       required>
+                <label class="popup-order__form-agreement-label" for="popup-order-form-agreement">
+                    Я согласен на обработку персональных данных
+                </label>
+                <button class="popup-order__form-btn form-btn" type="submit">Отправить!</button>
+            </form>
+        </div>
+    </div>
+    <!--        Popup Call-->
+    <div class="popup-call">
+        <div class="popup-call__success">
+            <div class="popup-call__success-pic">
+                <img src="img/successpic.png" alt="Успешно" class="popup-call__success-img">
+            </div>
+            <p class="popup-call__success-p">
+                Ваше собщение отправлено!
+            </p>
+        </div>
+        <div class="popup-call__inner">
+            <button class="popup-call__btn">
+                <img src="img/close.svg" alt="Закрыть" class="popup-order__btn-img">
+            </button>
+            <h4 class="popup-call__title">
+                Заказать обратный звонок
+            </h4>
+            <p class="popup-call__subtitle">
+                Заполните форму ниже и менеджер компании ВИОТРАНС перезвонит Вам в течение 15 минут.
+            </p>
+            <form action="#" class="popup-call__form">
+                <label for="popup-call-form-name">
+                    <input type="text" class="popup-call__form-input popup-call__form-name"
+                           id="popup-call-form-name"
+                           placeholder="Ваше имя"
+                    >
+                </label>
+                <label for="popup-call-form-tel">
+                    <input type="tel" class="popup-call__form-input popup-call__form-tel"
+                           id="popup-call-form-tel"
+                           placeholder="Телефон"
+                    >
+                </label>
+                <input type="checkbox" class="popup-call__form-agreement form-agreement"
+                       id="popup-call-form-agreement"
+                       required>
+                <label class="popup-call__form-agreement-label" for="popup-call-form-agreement">
+                    Я согласен на обработку персональных данных
+                </label>
+                <button class="popup-call__form-btn form-btn" type="submit">Отправить!</button>
+            </form>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo-img">
+            </a>
+            <button class="header__mobile-burger">
+                <img src="img/burger-icon.png" alt="Меню" class="header__mobile-burger-img">
+            </button>
+            <nav class="header__nav">
+                <button class="header__nav-close">
+                    <img src="img/close.svg" alt="Закрыть меню" class="header__nav-close-img">
+                </button>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="about.html" class="header__nav-item-a header__nav-btn header__nav-item-a-about">о
+                            компании</a>
+                        <ul class="header__nav-menu header__nav-menu-about">
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    история
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="news.html" class="header__nav-menu-item-a">
+                                    новости
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    акции
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    статьи
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="services.html" class="header__nav-item-a header__nav-btn header__nav-item-a-features">
+                            услуги</a>
+                        <ul class="header__nav-menu header__nav-menu-services">
+                            <li class="header__nav-menu-item">
+                                <a href="services-item-1.html" class="header__nav-menu-item-a">
+                                    уборка и вывоз снега
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    демонтаж загородных домов
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    перевозка спецтехники
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    рытье котлованов и траншей
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    планировка и вывоз грунта
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    благоустройство
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#header"
+                           class="header__nav-item-a header__nav-btn header__nav-item-a-catalog header__nav-item-a_on-page">
+                            Каталог</a>
+                        <ul class="header__nav-menu header__nav-menu-catalog">
+                            <li class="header__nav-menu-item">
+                                <a href="product.html" class="header__nav-menu-item-a">
+                                    экскаватор-погрузчик
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    экскаватор колесный полноприводный
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    гусеничный эксковатор
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    мини гусеничный эксковатор
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    автокраны
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    фронтальный погрузчик
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    автовышки
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    грунтовые, комбинированные катки
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    бульдозера
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    самосвалы
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    минипогрузчики
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#header" class="header__nav-item-a">прайс-лист</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contacts.html" class="header__nav-item-a">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+7 812 927 72 40" class="header__contacts-mobile-call">
+                    <img src="img/phone.svg" alt="Позвонить" class="header__contacts-mobile-call-img">
+                </a>
+                <a href="mailto:info@spezarenda.ru" class="header__contacts-mail">info@spezarenda.ru</a>
+                <a href="tel:+7 911 927 72 40" class="header__contacts-tel">+7 911 927 72 40</a>
+                <a href="tel:+7 812 927 72 40" class="header__contacts-tel">+7 812 927 72 40</a>
+                <button class="header__contacts-btn popup-call-show-btn">обратный звонок</button>
+                <a href="#" class="header__contacts-address">Санкт-Петербург,
+                    Заневский проспект, 1</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="page-nav">
+            <ul class="page-nav__list">
+                <li class="page-nav__list-item">
+                    <a href="index.html" class="page-nav__list-a page-nav__list-a_main">
+                        Главная
+                    </a>
+                </li>
+                <li class="page-nav__list-item">
+                    <span class="page-nav__list-a page-nav__list-a-active">
+                        Каталог
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <section class="desc">
+            <h2 class="desc__title">
+                Каталог
+            </h2>
+            <p class="desc__subtitle">
+                «ВИОТРАНС» — это более пятидесяти сотрудников, каждый из которых имеет высокую квалификацию и соответствующую специализацию.
+            </p>
+        </section>
+        <section class="catalog">
+
+            <h3 class="catalog__title">
+                Каталог услуг
+            </h3>
+            <div class="catalog__inner">
+                <div class="catalog__item catalog__item_i1">
+                    <a href="product.html" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-1.jpg" alt="Экскаватор-погрузчик" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="product.html" class="catalog__item-link-text">
+                        Экскаватор-погрузчик
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i2">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-2.jpg" alt="Экскаватор колесный
+полноповоротный" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Экскаватор колесный
+                        полноповоротный
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i3">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-3.jpg" alt="Гусеничный  экскаватор" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Гусеничный  экскаватор
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i4">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-4.jpg" alt="Гусеничный экскаватор
+длиннорукий" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Гусеничный экскаватор
+                        длиннорукий
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i5">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-5.jpg" alt="Мини гусеничный экскаватор" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Мини гусеничный экскаватор
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i6">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-6.png" alt="Автокраны" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Автокраны
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i7">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-7.jpg" alt="Фронтальный погрузчик" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Фронтальный погрузчик
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i8">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-8.png" alt="Автовышки" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Автовышки
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i9">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-9.jpg" alt="Грунтовые, комбинированные катки"
+                                 class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Грунтовые, комбинированные катки
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i10">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-10.jpg" alt="Бульдозера" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Бульдозера
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i11">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-11.jpg" alt="Самосвалы" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Самосвалы
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+                <div class="catalog__item catalog__item_i12">
+                    <a href="#" class="catalog__item-link">
+                        <span class="catalog__item-pic">
+                            <img src="img/catalog-12.png" alt="Минипогрузчики" class="catalog__item-img">
+                        </span>
+                    </a>
+                    <a href="#" class="catalog__item-link-text">
+                        Минипогрузчики
+                    </a>
+                    <button class="catalog__item-btn popup-order-show-btn">
+                        отправить заявку
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="order">
+            <div class="order__success">
+                <div class="order__success-pic">
+                    <img src="img/successpic.png" alt="Успешно" class="order__success-img">
+                </div>
+                <p class="order__success-p">
+                    Ваше собщение отправлено!
+                </p>
+            </div>
+            <h4 class="order__title">
+                Получите быстрый расчет Вашей заявки!
+            </h4>
+            <form action="#" class="order__form">
+                <div class="order__form-inner">
+                    <label for="order-form-name">
+                        <input type="text" class="order__form-input order__form-name" id="order-form-name"
+                               placeholder="Ваше имя"
+                        >
+                    </label>
+                    <label for="order-form-tel">
+                        <input type="tel" class=" order__form-input order__form-tel" id="order-form-tel"
+                               placeholder="Телефон"
+                        >
+                    </label>
+                    <label for="order-form-work">
+                        <input type="text" class="order__form-input  order__form-work" id="order-form-work"
+                               placeholder="Тип работы"
+                        >
+                    </label>
+                </div>
+                <input type="checkbox" class="form-agreement order__form-agreement" id="order-form-agreement" required>
+                <label class="order__form-agreement-label form-agreement-label" for="order-form-agreement">
+                    Я согласен на обработку персональных данных
+                </label><br>
+                <button class="order__form-btn form-btn" type="button">Отправить!</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__copyright">
+                © 2020 ООО “ВИОТРАНС”
+            </p>
+            <div class="footer__social">
+                <a href="#" class="footer__link">
+                    <img src="img/vk.png" alt="Вконтакте" class="footer__link-img">
+                </a>
+                <a href="#" class="footer__link">
+                    <img src="img/instagram.png" alt="Инстаграм" class="footer__link-img">
+                </a>
+            </div>
+            <a href="mailto:info@spezarenda.ru" class="footer__mail">
+                <img src="img/email.svg" alt="Почта" class="footer__mail-img"><span>info@spezarenda.ru</span></a>
+            <a href="#" class="footer__address">
+                Санкт-Петербург,
+                Заневский проспект, 1
+            </a>
+            <div class="footer__tel">
+                <a href="tel:+7 911 927 72 40" class="footer__tel-link">+7 911 927 72 40</a><br>
+                <a href="tel:+7 812 927 72 40" class="footer__tel-link"><img src="img/phone-f.svg" alt="Позвонить"
+                                                                             class="footer__tel-img"><span>+7 812 927
+                        72 40</span></a>
+            </div>
+        </div>
+        <div class="footer__name">
+            <img src="img/krosgros_out.png" alt="КРОСГРОС" class="footer__name-img">
+        </div>
+    </footer>
+</div>
+<!--scripts-->
+<script src="js/header.js"></script>
+<script src="js/catalog.js"></script>
+<!-- jQuery Mask Plugin -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="js/catalogjq.js"></script>
+</body>
+</html>

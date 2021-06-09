@@ -1,0 +1,116 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 970px;
+  margin: 115px auto auto;
+  &-item {
+    & .services {
+      margin-top: 160px;
+    }
+    & .order {
+      margin-bottom: 90px;
+    }
+    & .page-nav, .desc {
+      max-width: 860px;
+    }
+  }
+  &-page {
+    & .order {
+      margin-bottom: 90px;
+    }
+    & .page-nav, .desc {
+      max-width: 910px;
+    }
+  }
+  &__item {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    border: 4px solid transparent;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    transition: all .3s ease-in;
+    & svg path {
+      fill: #2278bf;
+      transition: all .1s ease-in;
+    }
+    &:hover {
+      & .services__item-title {
+        color: #444444;
+      }
+      & svg path {
+        fill: #444444;
+      }
+    }
+    &-active {
+      & svg path {
+        fill: #444444;
+        transition: all .1s ease-in;
+      }
+    }
+    &-title {
+      font-size: 24px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      color: #2278bf;
+      margin-top: 21px;
+      transition: all .1s ease-in;
+      &-active {
+        color: #444444;
+      }
+    }
+    &:nth-child(1) &-pic {
+      width: 112px;
+      height: 99px;
+    }
+    &:nth-child(2) &-pic {
+      width: 89px;
+      height: 99px;
+    }
+    &:nth-child(3) &-pic {
+      width: 141px;
+      height: 99px;
+    }
+    &:nth-child(4) &-pic {
+      width: 139px;
+      height: 99px;
+    }
+    &:nth-child(5) &-pic {
+      width: 131px;
+      height: 80px;
+      margin-top: 19px;
+    }
+    &:nth-child(6) &-pic {
+      width: 172px;
+      height: 101px;
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .services {
+    margin-bottom: 90px;
+    &-page, &-item {
+      & .page-nav, & .desc {
+        max-width: 600px;
+      }
+    }
+    &__item {
+      width: 50%;
+      border: none;
+      &:hover {
+        border: none;
+      }
+    }
+  }
+}
+@media (max-width: 630px) {
+  .services {
+    &__item {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+}

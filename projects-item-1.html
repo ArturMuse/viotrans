@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вывоз строительного мусора</title>
+    <!--    Normalize installed here-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--    Slick-->
+    <link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
+    <!--    Main stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--    Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper projects-page">
+    <!--        Popup Call-->
+    <div class="popup-call">
+        <div class="popup-call__success">
+            <div class="popup-call__success-pic">
+                <img src="img/successpic.png" alt="Успешно" class="popup-call__success-img">
+            </div>
+            <p class="popup-call__success-p">
+                Ваше собщение отправлено!
+            </p>
+        </div>
+        <div class="popup-call__inner">
+            <button class="popup-call__btn">
+                <img src="img/close.svg" alt="Закрыть" class="popup-order__btn-img">
+            </button>
+            <h4 class="popup-call__title">
+                Заказать обратный звонок
+            </h4>
+            <p class="popup-call__subtitle">
+                Заполните форму ниже и менеджер компании ВИОТРАНС перезвонит Вам в течение 15 минут.
+            </p>
+            <form action="#" class="popup-call__form">
+                <label for="popup-call-form-name">
+                    <input type="text" class="popup-call__form-input popup-call__form-name"
+                           id="popup-call-form-name"
+                           placeholder="Ваше имя"
+                    >
+                </label>
+                <label for="popup-call-form-tel">
+                    <input type="tel" class="popup-call__form-input popup-call__form-tel"
+                           id="popup-call-form-tel"
+                           placeholder="Телефон"
+                    >
+                </label>
+                <input type="checkbox" class="popup-call__form-agreement form-agreement"
+                       id="popup-call-form-agreement"
+                       required>
+                <label class="popup-call__form-agreement-label" for="popup-call-form-agreement">
+                    Я согласен на обработку персональных данных
+                </label>
+                <button class="popup-call__form-btn form-btn" type="submit">Отправить!</button>
+            </form>
+        </div>
+    </div>
+    <!--       Popup gallery-->
+    <div class="gallery-popup">
+        <button class="gallery-popup__btn-close">
+            <img src="img/close.svg" alt="Закрыть" class="gallery-popup__btn-close-img">
+        </button>
+        <h4 class="gallery-popup__title">
+            Экскаватор-погрузчик JCB 3CX
+        </h4>
+        <div class="gallery-popup__slider">
+            <div class="gallery-popup__slider-item">
+                <img src="img/al1.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al2.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al3.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al4.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al2.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al3.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al4.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al5.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al2.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al3.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+            <div class="gallery-popup__slider-item">
+                <img src="img/al4.png" alt="Фото" class="gallery-popup__slider-item-img">
+            </div>
+        </div>
+<!--        Navigation on click for album slider-->
+        <div class="gallery-popup__slider-nav">
+            <div class="gallery-popup__slider-nav-item">
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+            <div class="gallery-popup__slider-nav-item">
+
+            </div>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo-img">
+            </a>
+            <button class="header__mobile-burger">
+                <img src="img/burger-icon.png" alt="Меню" class="header__mobile-burger-img">
+            </button>
+            <nav class="header__nav">
+                <button class="header__nav-close">
+                    <img src="img/close.svg" alt="Закрыть меню" class="header__nav-close-img">
+                </button>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="about.html" class="header__nav-item-a header__nav-btn header__nav-item-a-about header__nav-item-a_on-page">о
+                            компании</a>
+                        <ul class="header__nav-menu header__nav-menu-about">
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    история
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="news.html" class="header__nav-menu-item-a">
+                                    новости
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    акции
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    статьи
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#header" class="header__nav-item-a header__nav-btn header__nav-item-a-features">
+                            услуги</a>
+                        <ul class="header__nav-menu header__nav-menu-services">
+                            <li class="header__nav-menu-item">
+                                <a href="services-item-1.html" class="header__nav-menu-item-a">
+                                    уборка и вывоз снега
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    демонтаж загородных домов
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    перевозка спецтехники
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    рытье котлованов и траншей
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    планировка и вывоз грунта
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    благоустройство
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="catalog.html"
+                           class="header__nav-item-a header__nav-btn header__nav-item-a-catalog">
+                            Каталог</a>
+                        <ul class="header__nav-menu header__nav-menu-catalog">
+                            <li class="header__nav-menu-item">
+                                <a href="product.html" class="header__nav-menu-item-a">
+                                    экскаватор-погрузчик
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    экскаватор колесный полноприводный
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    гусеничный эксковатор
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    мини гусеничный эксковатор
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    автокраны
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    фронтальный погрузчик
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    автовышки
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    грунтовые, комбинированные катки
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    бульдозера
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    самосвалы
+                                </a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="#" class="header__nav-menu-item-a">
+                                    минипогрузчики
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#header" class="header__nav-item-a">прайс-лист</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contacts.html" class="header__nav-item-a">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+7 812 927 72 40" class="header__contacts-mobile-call">
+                    <img src="img/phone.svg" alt="Позвонить" class="header__contacts-mobile-call-img">
+                </a>
+                <a href="mailto:info@spezarenda.ru" class="header__contacts-mail">info@spezarenda.ru</a>
+                <a href="tel:+7 911 927 72 40" class="header__contacts-tel">+7 911 927 72 40</a>
+                <a href="tel:+7 812 927 72 40" class="header__contacts-tel">+7 812 927 72 40</a>
+                <button class="header__contacts-btn popup-call-show-btn">обратный звонок</button>
+                <a href="#" class="header__contacts-address">Санкт-Петербург,
+                    Заневский проспект, 1</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="page-nav">
+            <ul class="page-nav__list">
+                <li class="page-nav__list-item">
+                    <a href="index.html" class="page-nav__list-a page-nav__list-a_main">
+                        Главная
+                    </a>
+                </li>
+                <li class="page-nav__list-item">
+                    <a href="about.html" class="page-nav__list-a">
+                        О компании
+                    </a>
+                </li>
+                <li class="page-nav__list-item">
+                    <a href="projects.html" class="page-nav__list-a">
+                        Объекты
+                    </a>
+                </li>
+                <li class="page-nav__list-item">
+                    <span class="page-nav__list-a page-nav__list-a-active">
+                        Вывоз строительного мусора
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <section class="desc">
+            <h1 class="desc__title">
+                Вывоз строительного мусора
+            </h1>
+            <p class="desc__p">
+                Описание проекта.
+            </p>
+            <p class="desc__p">
+                Дата начала: 23.02.2011
+            </p>
+        </section>
+        <div class="album">
+            <div class="album__item">
+                <img src="img/al1.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al2.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al3.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al4.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al2.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al3.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al4.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al5.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al2.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al3.png" alt="Фото" class="album__item-img">
+            </div>
+            <div class="album__item">
+                <img src="img/al4.png" alt="Фото" class="album__item-img">
+            </div>
+        </div>
+        <div class="order">
+            <div class="order__success">
+                <div class="order__success-pic">
+                    <img src="img/successpic.png" alt="Успешно" class="order__success-img">
+                </div>
+                <p class="order__success-p">
+                    Ваше собщение отправлено!
+                </p>
+            </div>
+            <h4 class="order__title">
+                Получите быстрый расчет Вашей заявки!
+            </h4>
+            <form action="#" class="order__form">
+                <div class="order__form-inner">
+                    <label for="order-form-name">
+                        <input type="text" class="order__form-input order__form-name" id="order-form-name"
+                               placeholder="Ваше имя"
+                        >
+                    </label>
+                    <label for="order-form-tel">
+                        <input type="tel" class=" order__form-input order__form-tel" id="order-form-tel"
+                               placeholder="Телефон"
+                        >
+                    </label>
+                    <label for="order-form-work">
+                        <input type="text" class="order__form-input  order__form-work" id="order-form-work"
+                               placeholder="Тип работы"
+                        >
+                    </label>
+                </div>
+                <input type="checkbox" class="form-agreement order__form-agreement" id="order-form-agreement" required>
+                <label class="order__form-agreement-label form-agreement-label" for="order-form-agreement">
+                    Я согласен на обработку персональных данных
+                </label><br>
+                <button class="order__form-btn form-btn" type="button">Отправить!</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__copyright">
+                © 2020 ООО “ВИОТРАНС”
+            </p>
+            <div class="footer__social">
+                <a href="#" class="footer__link">
+                    <img src="img/vk.png" alt="Вконтакте" class="footer__link-img">
+                </a>
+                <a href="#" class="footer__link">
+                    <img src="img/instagram.png" alt="Инстаграм" class="footer__link-img">
+                </a>
+            </div>
+            <a href="mailto:info@spezarenda.ru" class="footer__mail">
+                <img src="img/email.svg" alt="Почта" class="footer__mail-img"><span>info@spezarenda.ru</span></a>
+            <a href="#" class="footer__address">
+                Санкт-Петербург,
+                Заневский проспект, 1
+            </a>
+            <div class="footer__tel">
+                <a href="tel:+7 911 927 72 40" class="footer__tel-link">+7 911 927 72 40</a><br>
+                <a href="tel:+7 812 927 72 40" class="footer__tel-link"><img src="img/phone-f.svg" alt="Позвонить"
+                                                                             class="footer__tel-img"><span>+7 812 927
+                        72 40</span></a>
+            </div>
+        </div>
+        <div class="footer__name">
+            <img src="img/krosgros_out.png" alt="КРОСГРОС" class="footer__name-img">
+        </div>
+    </footer>
+</div>
+<!--scripts-->
+<script src="js/header.js"></script>
+<script src="js/projects.js"></script>
+<!--Slick-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="modules/slick/slick.min.js"></script>
+<!-- jQuery Mask Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="js/projectsjq.js"></script>
+<script src="js/projects-item.js"></script>
+<script src="js/projects-itemjq.js"></script>
+</body>
+</html>

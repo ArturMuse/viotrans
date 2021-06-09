@@ -1,0 +1,135 @@
+.about-page {
+  .page-nav, .desc {
+    max-width: 860px;
+  }
+}
+.desc {
+  &__p {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  &__list {
+    font-weight: 300;
+    font-size: 24px;
+    list-style-type: none;
+    &-item {
+      display: flex;
+      &::before {
+        content: "■";
+        display: block;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+.odds {
+  max-width: 950px;
+  margin: 100px auto auto;
+  text-align: center;
+  &__title {
+    color: #f0b949;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 90px;
+  }
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  &__item {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    &:nth-child(1) &-pic {
+      width: 112px;
+      height: 100px;
+    }
+    &:nth-child(2) &-pic {
+      width: 100px;
+      height: 100px;
+    }
+    &:nth-child(3) &-pic {
+      width: 90px;
+      height: 100px;
+    }
+    &:nth-child(4) &-pic {
+      width: 92px;
+      height: 100px;
+    }
+    &:nth-child(5) &-pic {
+      width: 108px;
+      height: 100px;
+    }
+    &-name {
+      width: 250px;
+      color: #f0b949;
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+  }
+  &__p {
+    display: block;
+    max-width: 860px;
+    text-align: left;
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin: auto auto 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .odds {
+    margin-top: 60px;
+    &__inner {
+      margin-bottom: 0;
+    }
+    &__item {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+    &__p {
+      &:last-child {
+        margin-bottom: 130px;
+      }
+    }
+  }
+  .about-page {
+    & .page-nav, & .desc, .odds {
+      max-width: 600px;
+    }
+  }
+}
+@media (max-width: 630px) {
+  .odds {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .odds {
+    &__title {
+      font-size: 27px;
+    }
+    &__p {
+      font-size: 17px;
+    }
+  }
+  .desc {
+    &__p, &__list {
+      font-size: 17px;
+    }
+  }
+}

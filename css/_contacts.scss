@@ -1,0 +1,111 @@
+.contacts {
+  &-page {
+    & .order {
+      margin-top: 0;
+      background: url("../img/back-order-product.jpg") no-repeat;
+      background-size: cover;
+      margin-bottom: 90px;
+      &__inner {
+        list-style-type: none;
+      }
+      &__item {
+        &-title {
+          font-size: 24px;
+        }
+      }
+      &__success {
+        background: transparent;
+      }
+      &__form {
+        padding-bottom: 60px;
+        &-input {
+          color: #000000;
+          font-weight: 600;
+          background: transparent;
+          &::placeholder {
+            color: #444444;
+            font-weight: 600;
+            opacity: 1;
+          }
+        }
+        &-btn {
+          margin: auto auto 0;
+          height: 63px;
+          border: 2px solid #000000;
+        }
+      }
+      &__title {
+        padding-top: 0;
+        &_pr {
+          font-size: 36px;
+          font-weight: 600;
+          padding-top: 45px;
+          margin-bottom: 55px;
+        }
+      }
+      &::before {
+        display: none;
+      }
+    }
+    & .desc {
+      &__p {
+        &-link {
+          color: #000000;
+          text-decoration: none;
+        }
+        &-mail {
+          color: #cb7500;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.map {
+  height: 500px;
+  margin-top: 70px;
+  & iframe {
+    pointer-events: none;
+  }
+}
+@media (max-width: 1023px) {
+  .contacts {
+    &-page {
+      & .order {
+        &__inner {
+          flex-wrap: wrap;
+          max-width: 320px;
+          margin: 5px auto 10px;
+        }
+        &__item {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        &__form {
+          padding-bottom: 130px;
+          &-btn {
+            position: absolute;
+            bottom: -115px;
+            left: calc(50% - 150px);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 630px) {
+  .map {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .contacts-page {
+    & .order {
+      &__form {
+        &-btn {
+          left: calc(50% - 140px);
+        }
+      }
+    }
+  }
+}

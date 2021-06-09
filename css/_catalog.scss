@@ -1,0 +1,145 @@
+.catalog-page {
+  .catalog {
+    border: none;
+    height: 100%;
+    padding-top: 150px;
+    &:after {
+      display: none;
+    }
+  }
+  .order {
+    background-color: transparent;
+    margin-top: 75px;
+    margin-bottom: 150px;
+    &__success {
+      background-color: #ffffff;
+    }
+    &__form {
+      &-input {
+        background-color: transparent;
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+}
+.page-nav {
+  margin: 295px auto auto;
+  max-width: 780px;
+  &__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    &-a {
+      font-size: 14px;
+      color: #cb7500;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+      padding-left: 7px;
+      &_main {
+        padding-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+      &:before {
+        content: '/';
+        color: #444444;
+        padding-right: 2px;
+      }
+      &-active {
+        color: #444444;
+      }
+    }
+  }
+}
+.desc {
+  max-width: 780px;
+  margin: 40px auto auto;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 24px;
+  }
+  &__btn {
+    &-more {
+      width: 202px;
+      height: 42px;
+      border: 2px solid #000000;
+      border-radius: 10px;
+      background-color: transparent;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      transition: all .3s ease-in-out;
+      z-index: 2;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .catalog-page {
+    .order {
+      margin-bottom: 70px;
+    }
+    .catalog {
+      padding-top: 130px;
+      &__item {
+        margin-bottom: 70px;
+        height: auto;
+        &-link {
+          &-text {
+            font-size: 16px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  .page-nav, .desc {
+    max-width: 600px;
+  }
+  .page-nav {
+    margin-top: 160px;
+  }
+}
+@media (max-width: 630px) {
+  .page-nav, .desc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .catalog-page {
+    .catalog {
+      &__inner {
+        overflow: hidden;
+      }
+      &__item {
+        transform: none;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        &-link {
+          width: 330px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+ .desc__title {
+   font-size: 27px;
+ }
+  .desc__subtitle {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+$black: #000000;
+@import "header";
+@import "main-index";
+@import "end";
+@import "popupOrderCall";
+@import "catalog";
+@import "about";
+@import "product";
+@import "services";
+@import "news";
+@import "projects";
+@import "contacts";

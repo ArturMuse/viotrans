@@ -1,0 +1,154 @@
+.projects {
+  max-width: 1060px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto 90px;
+  &-page {
+    & .order {
+      margin-bottom: 90px;
+    }
+    & .page-nav, & .desc {
+      max-width: 880px;
+    }
+    & .gallery-popup {
+      &__slider {
+        &-nav {
+          position: absolute;
+          opacity: 0;
+          z-index: -999;
+          pointer-events: none;
+          width: 10px;
+        }
+        &-item {
+          & img {
+            max-width: 1024px;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+  &__item {
+    width: 33.3%;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-title {
+      color: #cb7500;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      display: block;
+      width: 280px;
+      margin: 20px auto auto;
+    }
+    &-pic {
+      width: 320px;
+      height: 240px;
+      display: block;
+      &-under {
+        position: relative;
+        z-index: 2;
+        opacity: 0.5;
+      }
+      &-main {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+      }
+      &-end {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        opacity: 0.5;
+      }
+      &-wrap {
+        width: 340px;
+        height: 260px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+.album {
+  max-width: 960px;
+  margin: 45px auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    width: 320px;
+    height: 240px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+@media (max-width: 1150px) {
+  .projects {
+    max-width: 740px;
+    margin-left: 0;
+    &-wrap {
+      max-width: 905px;
+      margin: auto;
+    }
+    &__item {
+      width: 50%;
+      margin-bottom: 80px;
+    }
+  }
+}
+@media (max-width: 1023px) {
+  .album {
+    margin-bottom: 90px;
+  }
+  .projects {
+    max-width: 340px;
+    &-wrap {
+      max-width: 600px;
+    }
+    &__item {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    &-page {
+      & .page-nav, & .desc {
+        max-width: 600px;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .album {
+    justify-content: center;
+  }
+}
+@media (max-width: 630px) {
+  .projects {
+    &-wrap {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+@media (max-width: 350px) {
+  .projects {
+     &__item {
+       &-pic {
+         width: 280px;
+         height: 200px;
+         &-wrap {
+           width: 300px;
+           height: 220px;
+         }
+       }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05ff96ea-66f5-4e45-9719-33bc6e6e5e18" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aLb718NUJHSkDQpVdgSNVXhbqF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05ff96ea-66f5-4e45-9719-33bc6e6e5e18" name="Default Changelist" comment="" />
+      <created>1586517649184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586517649184</updated>
+      <workItem from="1586517651768" duration="28000" />
+      <workItem from="1586517728642" duration="1910000" />
+      <workItem from="1586526578317" duration="1176000" />
+      <workItem from="1586528730542" duration="10986000" />
+      <workItem from="1586589534893" duration="13932000" />
+      <workItem from="1586608070687" duration="77135000" />
+      <workItem from="1586785650327" duration="25307000" />
+      <workItem from="1586934880319" duration="15577000" />
+      <workItem from="1586967908955" duration="5356000" />
+      <workItem from="1587106402996" duration="16078000" />
+      <workItem from="1587199699731" duration="20596000" />
+      <workItem from="1587390143237" duration="699000" />
+      <workItem from="1587451889972" duration="15751000" />
+      <workItem from="1587486494527" duration="3982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="523" y="114" key="#Code_Folding" timestamp="1586957445321">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="523" y="114" key="#Code_Folding/0.0.1440.900@0.0.1440.900" timestamp="1586957445321" />
+    <state x="354" y="135" key="#Inspections" timestamp="1587453209105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1587453209105" />
+    <state x="446" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586589716161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="446" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586589716161" />
+    <state x="537" y="296" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586924143048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="537" y="296" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1586924143048" />
+    <state x="372" y="235" width="695" height="627" key="EditFileWatcherDialog" timestamp="1587378333888">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="372" y="235" width="695" height="627" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1587378333888" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1587499562499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587499562499" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1587499562498">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587499562498" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1587499562497">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587499562497" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1587499562498">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587499562498" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1587379325656">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587379325655" />
+    <state x="562" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1586517677981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="562" y="356" key="WebDeployment.AddServerDialog.v.1/0.0.1440.900@0.0.1440.900" timestamp="1586517677981" />
+    <state x="520" y="315" key="scopes" timestamp="1587369859023">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="315" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1587369859023" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587369281508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587369281508" />
+  </component>
+</project>
